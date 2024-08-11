@@ -1,7 +1,8 @@
 // backend/db.js
 const mongoose = require('mongoose');
+const { zod } = require("zod")
 
-mongoose.connect("mongodb://localhost:27017/paytm")
+mongoose.connect("mongodb+srv://simhanaranr7:9vCZLzyA6Lce1LPD@cluster0.nt5hrlo.mongodb.net/phonepay")
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
